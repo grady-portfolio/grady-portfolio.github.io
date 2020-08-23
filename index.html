@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grady's Corner</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <style type="text/css">
+            body{
+                margin-top: 10px; 
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+
+            p.panel-span{
+                text-align: justify;
+            }
+
+            p.Copyright{
+                text-align: center;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="uk-position-relative">
+            <img src="https://wallpaperset.com/w/full/3/9/a/313016.jpg" alt="light-image">
+            <div class="uk-position-top">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active">
+                                <a href="#offcanvas-usage" uk-toggle style="color: white;">
+                                    <span uk-icon="menu"></span>
+                                </a>
+                                <div id="offcanvas-usage" uk-offcanvas>
+                                    <div class="uk-offcanvas-bar">
+                                        <button class="uk-offcanvas-close" type="button" uk-close>
+                                        </button>
+                                        <p>
+                                            <h3>Additional Content</h3>
+                                            <a href="#about-me">About Me</a><br>
+                                            <a href="#mission">My Mission</a><br>
+                                            <a href="#skills">My Skills</a><br>
+                                            <a href="#works">My Works</a><br>
+                                            <a href="#work-together">Collab ?</a><br>
+                                            <a href="#contact">Contact Me</a><br>
+                                            <a href="#enquiry">Enquiry Form</a>
+                                            <h3>Partners</h3>
+                                            <a href="https://getuikit.com">UI KIT</a><br>
+                                            <a href="https://schriebenn.000webhostapp.com">Schrieben</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div><br>
+        <hr>
+        <div class="uk-child-width-1-3@s" uk-grid>
+            <div>
+                <div class="uk-panel">
+                    <h3 id="about-me">About Me</h3>
+                    <p class="panel-span">
+                        Hi, I am Aatif Mastan. I prefer to be called Grady. I am a CS student who likes to to code with coffee. Alongside coding, I like to play computer games like counter strike and valorant. I am not much good at valorant but yeah I can manage the game well. I hope you like my works here.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel">
+                    <h3 id="mission">My Mission</h3>
+                    <p class="panel-span">
+                        Nothing really fascinating in this paragraph, but I would really appreciate if the modern websites use a materialist and a minimalistic design. My mission is to provide such type of websites so that everyone can see the beauty of simplicity and minimalism.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel">
+                    <h3 id="what-we-offer">What I Offer</h3>
+                    <p class="panel-span">
+                        I can create a fully functioning website template for you with a very simple and minimalist look. Even though the looks are simple, I can guarantee that your targetted audience will love the webpage. For enquiries you can contact
+                        <a href="#contact">here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 id="skills">My Skills</h3>
+        <p>
+            HTML<progress id="js-progressbar" class="uk-progress" value="90" max="100"></progress>
+        </p>
+        <p>
+            CSS<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
+        </p>
+        <p>
+            UIKIT<progress id="js-progressbar" class="uk-progress" value="80" max="100"></progress>
+        </p>
+        <hr>
+        <h3 id="works">My Works</h3>
+        <p>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="https://p4.wallpaperbetter.com/wallpaper/572/401/280/minimalism-simple-background-digital-art-writing-wallpaper-preview.jpg" alt="schrieben header">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                        <a href="https://realgrady.netlify.app/" style="text-decoration: none;"><p class="uk-h4 uk-margin-remove">Shrieben</a></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="programmatic-brains header">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                        <a href="https://probrains.netlify.app" style="text-decoration: none;"><p class="uk-h4 uk-margin-remove">Programmatic Brains</a></p>
+                    </div>
+                </div>
+            </div>
+        </p>
+        <hr>
+        <h3 id="work-together">Collab ?</h3>
+        <p>
+            Hop in !<br>We can work together. Below Provided are my contact options, hit me up and we can create some cool works.
+        </p>
+        <span id="contact">
+            <a href="tel:+919619733094" class="uk-icon-button uk-margin-small-right" uk-icon="receiver"></a>
+            <a href="mailto:aatifmastan644@gmail.com" class="uk-icon-button uk-margin-small-right" uk-icon="mail"></a>
+            <a href="http://api.whatsapp.com/send?phone=+919619733084" class="uk-icon-button uk-margin-small-right" uk-icon="whatsapp"></a>
+            <a href="https://instagram.com/real.grady" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+            <a href="https://github.com/grady2002" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+        </span>
+        <hr>
+        <h3 id="enquiry">Enquiry Form</h3>
+        <form id="my-form" action="https://formspree.io/xbjzeqkq" method="POST">
+            <div class="uk-margin">
+                <label>Full Name</label><input class="uk-input" type="text" name="full name" placeholder="full name">
+            </div>
+            <div class="uk-margin">
+                <label>Contact EMAIL</label><input class="uk-input" type="email" name="email" placeholder="contact">
+            </div>
+            <div class="uk-margin">
+                <label>Your Enquiry</label><textarea class="uk-textarea" name="enquiry" rows="10" placeholder="please type your enquiry here"></textarea>
+            </div>
+            <button id="my-form-button" class="uk-button uk-button-default">Submit</button>
+            <p id="my-form-status"></p>
+        </form>
+        <hr>
+        <p class="Copyright">Copyright&copy; 2020 All rights reserved</p>
+        <script>
+
+          window.addEventListener("DOMContentLoaded", function() {
+            // get the form elements defined in your form HTML above
+            var form = document.getElementById("my-form");
+            var button = document.getElementById("my-form-button");
+            var status = document.getElementById("my-form-status");
+            // Success and Error functions for after the form is submitted
+            function success() {
+              form.reset();
+              button.style = "display: none ";
+              status.innerHTML = "Thanks!";
+            }
+            function error() {
+              status.innerHTML = "Oops! There was a problem.";
+            }
+            // handle the form submission event
+
+            form.addEventListener("submit", function(ev) {
+              ev.preventDefault();
+              var data = new FormData(form);
+              ajax(form.method, form.action, data, success, error);
+            });
+          });
+          // helper function for sending an AJAX request
+          function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function() {
+              if (xhr.readyState !== XMLHttpRequest.DONE) return;
+              if (xhr.status === 200) {
+                success(xhr.response, xhr.responseType);
+              } else {
+                error(xhr.status, xhr.response, xhr.responseType);
+              }
+            };
+            xhr.send(data);
+          }
+    </script>
+    </body>
+</html>
