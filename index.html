@@ -8,14 +8,14 @@
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
         <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+            *{
+                font-family: 'PT Sans', sans-serif;
+            }
             body{
                 margin-top: 10px; 
                 margin-right: 10px;
                 margin-left: 10px;
-            }
-
-            p.panel-span{
-                text-align: justify;
             }
 
             p.Copyright{
@@ -72,7 +72,7 @@
                 <div class="uk-panel">
                     <h3 id="about-me">About Me</h3>
                     <p class="panel-span">
-                        Hi, I am Aatif Mastan. I prefer to be called Grady. I am a CS student who likes to code with coffee. Alongside coding, I like to play computer games like counter strike and valorant. I am not much good at valorant but yeah I can manage the game well. I hope you like my works here.
+                        Hello ! I am Aatif Mastan, but I like to be called Grady. I am a first year computer science student, I like to code, play computer games, solve challenges, travel and also a little bit of mathematics. I am also a Hacker ( Penetration Tester ) and I constantly keep practicing so that I am always the best in the room. From my point of view, I dont see problems around me. I see them as locks which can be picked easily. Anytime and everytime I hack, I make sure its for good.
                     </p>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                 <div class="uk-panel">
                     <h3 id="mission">My Mission</h3>
                     <p class="panel-span">
-                        Nothing really fascinating in this paragraph, but I would really appreciate if the modern websites use a materialist and a minimalistic design. My mission is to provide such type of websites so that everyone can see the beauty of simplicity and minimalism.
+                        I belive that all the websites should have a very simple look and not a very fancy kind of look. So I cannot change each and every website in the world but I can help in creating beatiful and simple looking websites. Even though the website may look simple, your targetted audience will definitely like it.
                     </p>
                 </div>
             </div>
@@ -88,46 +88,55 @@
                 <div class="uk-panel">
                     <h3 id="what-we-offer">What I Offer</h3>
                     <p class="panel-span">
-                        I can create a fully functioning website template for you with a very simple and minimalist look. Even though the looks are simple, I can guarantee that your targetted audience will love the webpage. For enquiries you can contact
-                        <a href="#contact">here</a>
+                        I offer stunning websites with a very simple look. The website may not be 100% perfect but it will be according to your specifications. For enquiries contact <a href="#contact">here</a>
                     </p>
                 </div>
             </div>
         </div>
         <hr>
         <h3 id="skills">My Skills</h3>
-        <h4>Developement</h4>
-        <p>
-            HTML<progress id="js-progressbar" class="uk-progress" value="90" max="100"></progress>
-        </p>
-        <p>
-            CSS<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
-        </p>
-        <p>
-            UIKIT<progress id="js-progressbar" class="uk-progress" value="80" max="100"></progress>
-        </p>
-        <p>
-            Payment Integration<progress id="js-progressbar" class="uk-progress" value="90" max="100"></progress>
-        </p>
-        <h4>Hacking</h4>
-        <p>
-            Reconnaissance / Information Gathering<progress id="js-progressbar" class="uk-progress" value="80" max="100"></progress>
-        </p>
-        <p>
-            Enumeration<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
-        </p>
-        <p>
-            Exploitation<progress id="js-progressbar" class="uk-progress" value="60" max="100"></progress>
-        </p>
-        <p>
-            Previlage Escalation<progress id="js-progressbar" class="uk-progress" value="60" max="100"></progress>
-        </p>
-        <p>
-            Password Cracking (BruteForce)<progress id="js-progressbar" class="uk-progress" value="50" max="100"></progress>
-        </p>
-        <p>
-            Password Cracking (HASH)<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
-        </p>
+        <ul uk-accordion>
+            <li class="uk-close">
+                <a class="uk-accordion-title" href="#">Developement - Click to expand</a>
+                <div class="uk-accordion-content">
+                    <p>
+                        HTML<progress id="js-progressbar" class="uk-progress" value="90" max="100"></progress>
+                    </p>
+                    <p>
+                        CSS<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
+                    </p>
+                    <p>
+                        UIKIT<progress id="js-progressbar" class="uk-progress" value="80" max="100"></progress>
+                    </p>
+                    <p>
+                        Payment Integration<progress id="js-progressbar" class="uk-progress" value="90" max="100"></progress>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Hacking - Click to expand</a>
+                <div class="uk-accordion-content">
+                    <p>
+                        Reconnaissance / Information Gathering<progress id="js-progressbar" class="uk-progress" value="80" max="100"></progress>
+                    </p>
+                    <p>
+                        Enumeration<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
+                    </p>
+                    <p>
+                        Exploitation<progress id="js-progressbar" class="uk-progress" value="60" max="100"></progress>
+                    </p>
+                    <p>
+                        Previlage Escalation<progress id="js-progressbar" class="uk-progress" value="60" max="100"></progress>
+                    </p>
+                    <p>
+                        Password Cracking (BruteForce)<progress id="js-progressbar" class="uk-progress" value="50" max="100"></progress>
+                    </p>
+                    <p>
+                        Password Cracking (HASH)<progress id="js-progressbar" class="uk-progress" value="70" max="100"></progress>
+                    </p>
+                </div>
+            </li>
+        </ul>
         <hr>
         <h3 id="works">My Works</h3>
         <p>
@@ -169,6 +178,7 @@
             <a href="mailto:aatifmastan644@gmail.com" class="uk-icon-button uk-margin-small-right" uk-icon="mail"></a>
             <a href="http://api.whatsapp.com/send?phone=+919619733084" class="uk-icon-button uk-margin-small-right" uk-icon="whatsapp"></a>
             <a href="https://github.com/grady2002" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+            <a href="http://instagram.com/not__grady" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
         </span>
         <hr>
         <h3 id="enquiry">Enquiry Form</h3>
